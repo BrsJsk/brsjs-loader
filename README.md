@@ -24,7 +24,11 @@ loader.show();
 loader.hide();
 ```
 
+# Loaders
+- standard
+
 ## Example
+[Live example](https://stackblitz.com/edit/brsjs-loader-live-example)
 
     let loader = new Loader('app', 'standard');
 
