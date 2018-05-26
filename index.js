@@ -1,8 +1,8 @@
 import './style.css';
 
 class Loader {
-    uniqueClassName = '-brsjsloader';
     constructor(placeToDisplay, type) {
+        this.uniqueClassName = '-brsjsloader';
         this.type = type ? type : 'standard';
         this.element = document.getElementById(placeToDisplay);
         this.loader = document.createElement("div");
