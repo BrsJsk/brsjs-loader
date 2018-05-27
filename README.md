@@ -11,10 +11,11 @@ A small library for managing loaders.
 ## Usage
 ### Initialize loader with
 ```
+import Loader from 'brsjs-loader';
 let loader = new Loader('id', 'type');
 ```
 #### 'id' is id of your element where you want to show your loader.
-#### 'type' is type of loader. Currently only 'standard' is supported.
+#### 'type' is type of loader.
 ### Show loader with
 ```
 loader.show();
@@ -26,6 +27,9 @@ loader.hide();
 
 # Loaders
 - standard
+- small-circle
+- bars
+- dots
 
 ## Example
 [Live example](https://stackblitz.com/edit/brsjs-loader-live-example)
@@ -33,4 +37,5 @@ loader.hide();
     let loader = new Loader('app', 'standard');
 
     loader.show();
+    loader.hide();
 
