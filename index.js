@@ -1,21 +1,13 @@
-import './style.min.css';
+'use strict';
 
-class Loader {
-    constructor(placeToDisplay, type) {
-        this.uniqueClassName = '-brsjsloader';
-        this.type = type ? type : 'standard';
-        this.element = document.getElementById(placeToDisplay);
-        this.loader = document.createElement("div");
-        this.loader.className = this.type + this.uniqueClassName;
-    }
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-    hide() {
-        this.loader.remove()
-    }
+var _index = require('./dist/index');
 
-    show() {
-        this.element.appendChild(this.loader)
-    }
-}
+var _index2 = _interopRequireDefault(_index);
 
-export default Loader;
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _index2.default;
