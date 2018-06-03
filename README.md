@@ -2,6 +2,7 @@ Loader
 =========
 
 A small library for managing loaders.
+
 [![NPM](https://nodei.co/npm/brsjs-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/brsjs-loader/)
 
 ## Installation
@@ -24,13 +25,19 @@ loader.show();
 ```
 loader.hide();
 ```
+# Initialize custom loader
+```
+let loader = new Loader('app', 'custom:nameOfClass');
+```
 
 # Loaders
 - standard
 - small-circle
 - bars
 - dots
+- custom loaders
 
+### Show loader with
 ## Example
 [Live example](https://stackblitz.com/edit/brsjs-loader-live-example)
 
