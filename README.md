@@ -5,6 +5,8 @@ A small library for managing loaders.
 
 [![NPM](https://nodei.co/npm/brsjs-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/brsjs-loader/)
 
+[![Build Status](https://travis-ci.com/BrsJsk/brsjs-loader.svg?branch=master)](https://travis-ci.com/BrsJsk/brsjs-loader)
+
 ## Installation
 
   `npm install brsjs-loader`
@@ -45,4 +47,3 @@ let loader = new Loader('app', 'custom:nameOfClass');
 
     loader.show();
     loader.hide();
-
