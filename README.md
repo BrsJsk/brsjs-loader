@@ -1,7 +1,7 @@
 Loader
 =========
 
-A small library for managing loaders.
+A small library for displaying and hiding loading indicators.
 
 [![NPM](https://nodei.co/npm/brsjs-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/brsjs-loader/)
 
